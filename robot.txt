@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow:
+Allow: /slimquick.org/
+Disallow: /slimquick.org/privacypolicy.html
+Disallow: /slimquick.org/img

@@ -1,0 +1,163 @@
+  body {
+    padding-top: 0px;
+    font-size: 15px;
+    padding-bottom: 50px;
+    position: relative;
+    font-family: "Georgia", 'Nimbus Roman No9 L', 'Century Schoolbook L', serif;
+    line-height: 1.45;
+    display: block;
+  }
+
+  .top-bar {
+  display: inline-block;
+  height: 50px;
+  left: 0;
+  width: 100%;
+  background-color: #0685FC;
+  border-radius: 0 0 5px 5px;
+  padding-bottom: 30px;
+  }
+
+  .top-bar h2 {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 18px;
+  font-family: "Arial", "Sans-serif";
+  text-transform: uppercase;
+  }
+
+  .top-bar h2 a {
+  text-decoration: none;
+  color: #fff !important;
+  }
+
+  .nav {
+  padding: 10px;
+  text-align: center;
+  top: 65px;
+  }
+
+  .nav ul {
+  background: #ddd;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  border-radius: 5px;
+  }
+
+  .nav li {
+    float: left;
+    width: 200px;
+    height: 65px;
+    line-height: 65px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(0,0,0,0.7)
+    cursor: pointer;
+    margin: 0;
+  }
+
+  .nav li:hover {
+    background: #d5d5d5;
+    border-radius: 5px;
+  }
+
+  .nav ul .drop {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    padding: 0;
+  }
+
+  .nav ul .drop li {
+    background: #666;
+    color: rgba(255,255,255,0.7)
+  }
+
+  ul .drop {
+    display: none;
+    position: absolute;
+  }
+
+  .nav ul .drop li:hover {
+    background: #606060;
+  }
+
+  .nav ul .drop li:last-child {
+    border-radius: 0 0 5px 5px;
+  }
+
+ .nav ul li:hover .drop {
+   display: block;
+ }
+
+  .container {
+    padding: 0 50px;
+  }
+
+ .content {
+   text-align: center;
+   float: center;
+   min-width: 700px;
+   padding-bottom: 50px;
+ }
+
+ .content a {
+   text-decoration: none;
+ }
+
+ .footer {
+   position: absolute;
+   right: 0;
+   left: 0;
+   bottom: 0px;
+   background-color: #29b6f6;
+   text-align: center;
+   padding: 1rem;
+   margin-top: 100px;
+ }
+
+ .step {
+   line-height: 150%;
+ }
+
+ .row {
+   padding: 50px 200px;
+ }
+
+ .text {
+   width: 800px;
+   padding-top: 50px;
+   line-height: 170%;
+ }
+
+ /* padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+}
+*/
+
+/* TO USE BOXES
+.leftbox {
+  width: 30%;
+  background-color: #f3f3f3;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+*/
